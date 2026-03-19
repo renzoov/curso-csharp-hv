@@ -1,0 +1,44 @@
+namespace NestedIfExample
+{
+    internal class Program
+    {
+        public static void Main(string[] args)
+        {
+            //declare variable to store marks of the student
+            int marks = 70;
+            char gradeLetter;
+            
+            //>= 85 O
+            //>= 60 && < 85 A
+            //>= 50 && < 60 B
+            //>= 35 && < 50 C
+            //else F
+
+            if (marks >= 35)
+            {
+                if (marks >= 85)
+                {
+                    gradeLetter = 'O';
+                }
+                if (marks >= 60 && marks < 85)
+                {
+                    gradeLetter = 'A';
+                }
+                else if (marks >= 50 && marks < 60)
+                {
+                    gradeLetter = 'B';
+                }
+                else
+                {
+                    gradeLetter = 'C';
+                }
+            }
+            else
+            {
+                gradeLetter = 'F';
+            }
+            
+            System.Console.ReadKey();
+        }
+    }
+}
