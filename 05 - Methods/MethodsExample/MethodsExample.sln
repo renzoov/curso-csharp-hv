@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsExample", "MethodsExample\MethodsExample.csproj", "{3590D156-7BDB-4AB7-B6BC-AB507A7100EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{548DD103-1603-4558-909F-5F7505850342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3590D156-7BDB-4AB7-B6BC-AB507A7100EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3590D156-7BDB-4AB7-B6BC-AB507A7100EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3590D156-7BDB-4AB7-B6BC-AB507A7100EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3590D156-7BDB-4AB7-B6BC-AB507A7100EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548DD103-1603-4558-909F-5F7505850342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548DD103-1603-4558-909F-5F7505850342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548DD103-1603-4558-909F-5F7505850342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548DD103-1603-4558-909F-5F7505850342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
