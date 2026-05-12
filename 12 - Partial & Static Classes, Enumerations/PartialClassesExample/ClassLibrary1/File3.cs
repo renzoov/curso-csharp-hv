@@ -1,7 +1,11 @@
-﻿namespace ClassLibrary1
+﻿namespace Warehouse
 {
-    public class File3
+    public partial class Product
     {
-        
+        partial void GetTax()
+        {
+            double tax = Cost * 10 / 100;
+            System.Console.WriteLine(tax);
+        }
     }
 }

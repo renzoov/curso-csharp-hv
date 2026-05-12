@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceExample", "InheritanceExample\InheritanceExample.csproj", "{E82549D2-D740-4A4F-9D5E-34714CED409E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{E55A7149-9ED5-44C8-A568-284659F6075A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82549D2-D740-4A4F-9D5E-34714CED409E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82549D2-D740-4A4F-9D5E-34714CED409E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82549D2-D740-4A4F-9D5E-34714CED409E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82549D2-D740-4A4F-9D5E-34714CED409E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55A7149-9ED5-44C8-A568-284659F6075A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55A7149-9ED5-44C8-A568-284659F6075A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55A7149-9ED5-44C8-A568-284659F6075A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55A7149-9ED5-44C8-A568-284659F6075A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

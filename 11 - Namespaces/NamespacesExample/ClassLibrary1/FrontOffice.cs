@@ -1,7 +1,4 @@
-﻿namespace ClassLibrary1
+﻿namespace FrontOffice
 {
-    public class FrontOffice
-    {
-        
-    }
+    
 }
